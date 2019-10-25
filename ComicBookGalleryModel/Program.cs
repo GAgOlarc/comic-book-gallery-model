@@ -27,6 +27,8 @@ namespace ComicBookGalleryModel
                 {
                     Console.WriteLine(comicBook.SeriesTitle);
                 }
+
+                Console.ReadLine();
             }
         }
     }
