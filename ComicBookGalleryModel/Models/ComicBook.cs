@@ -20,8 +20,8 @@ namespace ComicBookGalleryModel.Models
         public DateTime PublishedOn { get; set; }
         public decimal? AverageRating { get; set; }
 
-        public Series Series { get; set; }
-        public ICollection<ComicBookArtist> Artists { get; set; }
+        public virtual Series Series { get; set; }
+        public virtual ICollection<ComicBookArtist> Artists { get; set; }
 
         public string DisplayText
         {
